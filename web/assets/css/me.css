@@ -1,3 +1,81 @@
+/* Reset */
+	jyBlock {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	jyBlock, q {
+		quotes: none;
+	}
+	jyBlock:before, jyBlock:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+	
+	jyyBlock {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	jyyBlock, q {
+		quotes: none;
+	}
+	jyyBlock:before, jyyBlock:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+	
+/* Type */
+	jyBlock {
+		border-left: solid 8px;
+		font-style: normal;
+		margin: 0 0 2rem 0;
+		padding: 0.5rem 0 0.5rem 2rem;
+		font-weight: 1000;
+		font-size:26px
+	}
+	jyBlock {
+		border-left-color: rgba(0, 0, 0, 0.3);
+	}
+
+	jyyBlock {
+		border-left: solid 8px;
+		font-style: italic;
+		margin: 0 0 2rem 0;
+		padding: 0.5rem 0 0.5rem 2rem;
+		font-size:20px
+	}
+	jyyBlock {
+		border-left-color: rgba(0, 0, 0, 0.1);
+	}
+/* Gallery (style1) */
+		.gallery.style1 jyBlock {
+			border-left-color: white;
+		}
+		.gallery.style2 jyBlock {
+			border-left-color: white;
+		}
+
+		.gallery.style1 jyyBlock {
+			border-left-color: white;
+		}
+		.gallery.style2 jyyBlock {
+			border-left-color: white;
+		}
+/* Wrapper */		
+			#wrapper > .invert jyBlock {
+				border-left-color: white;
+			}
+
+			#wrapper > .invert jyyBlock {
+				border-left-color: white;
+			}		
 .align-center {
 	position: relative;
     left: 50%;
